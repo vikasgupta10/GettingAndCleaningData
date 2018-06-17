@@ -22,8 +22,8 @@ https://www.coursera.org/course/getdata
 ## Executing
 
 ### install packages 
-* RCurl
-* reshape2
+library(dplyr)
+library(data.table)
 
 ### set working dir
 * Script creates a relative `./data` dir in which it downloads the .zip, extracts it and writes the result file (`tidy_data.txt`)
